@@ -1,7 +1,7 @@
 # Features to be implemented
 
 ## Test Driven Development
-- [ ] Vitest
+- [x] Vitest
 - [ ] Testing Library
 - [ ] Snapshot Testing
 - [ ] Add dummy component
