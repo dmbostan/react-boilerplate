@@ -23,7 +23,6 @@ describe('Renders main page correctly', async () => {
         fireEvent.click(button as HTMLElement);
         fireEvent.click(button as HTMLElement);
 
-        // Post Expectations
         expect(button?.innerHTML).toBe('count is 3');
     });
 });
