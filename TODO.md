@@ -2,7 +2,7 @@
 
 ## Test Driven Development
 - [x] Vitest
-- [ ] Testing Library
+- [x] Testing Library
 - [ ] Snapshot Testing
 - [ ] Add dummy component
 
