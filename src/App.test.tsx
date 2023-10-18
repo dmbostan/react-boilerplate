@@ -10,7 +10,7 @@ describe('Renders main page correctly', async () => {
         render(<App />);
         const h1 = await screen.queryByText('Vite + React');
 
-        expect(h1).not.toBeNull();
+        expect(h1).toBeInTheDocument();
     });
 
     it('should show the button count set to 3', async () => {
