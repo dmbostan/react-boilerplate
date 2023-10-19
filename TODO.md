@@ -3,8 +3,8 @@
 ## Test Driven Development
 - [x] Vitest
 - [x] Testing Library
-- [ ] Snapshot Testing
-- [ ] Add dummy component
+- [x] Snapshot Testing
+- [x] Add dummy component
 
 ## Development experience
 - [ ] Local SSL support
