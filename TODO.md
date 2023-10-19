@@ -9,7 +9,7 @@
 ## Development experience
 - [ ] Local SSL support
 - [x] Path aliases
-- [ ] Implement checks in CI pipeline
+- [x] Implement checks in CI pipeline
 
 ## Architecture
 - [x] Implement Atomic Design
