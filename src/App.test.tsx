@@ -1,11 +1,7 @@
 import App from "./App.tsx";
 import { render, screen, fireEvent } from '@testing-library/react';
 
-describe('Renders main page correctly', async () => {
-    it('should be truthy', async () => {
-        expect(true).toBeTruthy();
-    });
-
+describe('App', async () => {
     it('should have a heading', async () => {
         render(<App />);
         const h1 = await screen.queryByText('Vite + React');
@@ -25,4 +21,10 @@ describe('Renders main page correctly', async () => {
 
         expect(button?.innerHTML).toBe('count is 3');
     });
+
+    it('should match snapshot', () => {
+        const component = render(<App />)
+
+        expect(component).toMatchSnapshot()
+    })
 });
