@@ -1,16 +1,16 @@
-import App from "./App.tsx";
+import Home from "./Home.tsx";
 import { render, screen, fireEvent } from '@testing-library/react';
 
-describe('App', async () => {
+describe('Home component', async () => {
     it('should have a heading', async () => {
-        render(<App />);
+        render(<Home />);
         const h1 = await screen.queryByText('Vite + React');
 
         expect(h1).toBeInTheDocument();
     });
 
     it('should show the button count set to 3', async () => {
-        await render(<App />);
+        await render(<Home />);
         const button = await screen.queryByText('count is 0');
 
         expect(button).not.toBeNull();
@@ -23,7 +23,7 @@ describe('App', async () => {
     });
 
     it('should match snapshot', () => {
-        const component = render(<App />)
+        const component = render(<Home />)
 
         expect(component).toMatchSnapshot()
     })
