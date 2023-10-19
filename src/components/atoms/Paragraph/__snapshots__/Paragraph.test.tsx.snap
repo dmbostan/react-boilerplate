@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Logos component > matches snapshot 1`] = `
+exports[`Paragraph component > matches snapshot 1`] = `
 <DocumentFragment>
   <p>
     Example

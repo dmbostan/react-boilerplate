@@ -1,32 +1,30 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Renders main page correctly > should match snapshot 1`] = `
+exports[`App > should match snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <a
-          href="https://vitejs.dev"
-          target="_blank"
-        >
-          <img
-            alt="Vite logo"
-            class="logo"
-            src="/vite.svg"
-          />
-        </a>
-        <a
-          href="https://react.dev"
-          target="_blank"
-        >
-          <img
-            alt="React logo"
-            class="logo react"
-            src="/src/assets/react.svg"
-          />
-        </a>
-      </div>
+      <a
+        href="https://vitejs.dev"
+        target="_blank"
+      >
+        <img
+          alt="Vite logo"
+          class="logo"
+          src="/src/assets/vite.svg"
+        />
+      </a>
+      <a
+        href="https://react.dev"
+        target="_blank"
+      >
+        <img
+          alt="React logo"
+          class="logo react"
+          src="/src/assets/react.svg"
+        />
+      </a>
       <h1>
         Vite + React
       </h1>
@@ -53,28 +51,26 @@ exports[`Renders main page correctly > should match snapshot 1`] = `
     </div>
   </body>,
   "container": <div>
-    <div>
-      <a
-        href="https://vitejs.dev"
-        target="_blank"
-      >
-        <img
-          alt="Vite logo"
-          class="logo"
-          src="/vite.svg"
-        />
-      </a>
-      <a
-        href="https://react.dev"
-        target="_blank"
-      >
-        <img
-          alt="React logo"
-          class="logo react"
-          src="/src/assets/react.svg"
-        />
-      </a>
-    </div>
+    <a
+      href="https://vitejs.dev"
+      target="_blank"
+    >
+      <img
+        alt="Vite logo"
+        class="logo"
+        src="/src/assets/vite.svg"
+      />
+    </a>
+    <a
+      href="https://react.dev"
+      target="_blank"
+    >
+      <img
+        alt="React logo"
+        class="logo react"
+        src="/src/assets/react.svg"
+      />
+    </a>
     <h1>
       Vite + React
     </h1>
