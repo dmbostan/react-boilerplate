@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Logos from "@molecules/Logos/Logos.tsx";
 import Paragraph from "@atoms/Paragraph/Paragraph.tsx";
+import Heading from "@atoms/Heading/Heading.tsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Logos />
-      <h1>Vite + React</h1>
+      <Heading as="h1">Vite + React</Heading>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
