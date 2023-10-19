@@ -9,6 +9,7 @@
 ## Development experience
 - [ ] Local SSL support
 - [ ] Path aliases
+- [ ] Implement checks in CI pipeline
 
 ## Architecture
 - [ ] Implement Atomic Design
@@ -20,4 +21,3 @@
 
 ## Assets
 - [ ] Implement SVGR
-
