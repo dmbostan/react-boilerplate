@@ -20,4 +20,4 @@
 - [ ] Extend linting to a modern standard
 
 ## Assets
-- [ ] Implement SVGR
+- [x] Implement SVGR
