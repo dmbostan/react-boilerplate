@@ -2,10 +2,6 @@ import App from "./App.tsx";
 import { render, screen, fireEvent } from '@testing-library/react';
 
 describe('App', async () => {
-    it('should be truthy', async () => {
-        expect(true).toBeTruthy();
-    });
-
     it('should have a heading', async () => {
         render(<App />);
         const h1 = await screen.queryByText('Vite + React');
