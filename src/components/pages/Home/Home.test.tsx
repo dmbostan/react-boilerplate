@@ -23,8 +23,8 @@ describe('Home component', async () => {
     });
 
     it('should match snapshot', () => {
-        const component = render(<Home />)
+        const { asFragment} = render(<Home />)
 
-        expect(component).toMatchSnapshot()
+        expect(asFragment()).toMatchSnapshot()
     })
 });
