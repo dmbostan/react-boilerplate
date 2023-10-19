@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/dmbostan/react-boilerplate/branch/main/graph/badge.svg)](https://codecov.io/gh/dmbostan/react-boilerplate)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
