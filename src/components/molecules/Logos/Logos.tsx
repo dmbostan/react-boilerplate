@@ -1,15 +1,15 @@
 import {Link, Image} from "@atoms/index";
-import reactLogo from "@assets/react.svg";
-import viteLogo from '@assets/vite.svg'
+import ReactLogo from "@assets/react.svg?react";
+import ViteLogo from '@assets/vite.svg?react'
 
 const Logos = () => {
     return(
         <>
             <Link href="https://vitejs.dev" target="_blank">
-                <Image src={viteLogo} className="logo" alt="Vite logo" />
+                <ViteLogo className="logo" />
             </Link>
             <Link href="https://react.dev" target="_blank">
-                <Image src={reactLogo}  className="logo react" alt="React logo" />
+                <ReactLogo className="logo react" />
             </Link>
         </>
     );
