@@ -40,10 +40,12 @@ jobs:
       - name: Build
         run: yarn build
       - name: Test
-        run: yarn coverage && |
-          if [[ ${{ steps.test-with-coverage.outcome }} == 'failure' ]]; then
-            echo "Tests failed"
-            exit 1
+        run: |
+          yarn coverage 
+          
+          if [ $? -eq 1 ]; then
+          echo "Script exited with code 1. Failing the workflow."
+          exit 1
           fi
       - name: Setup Pages
         uses: actions/configure-pages@v3

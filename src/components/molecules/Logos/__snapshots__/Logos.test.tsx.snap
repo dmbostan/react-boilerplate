@@ -9,7 +9,7 @@ exports[`Logos component > should match the snapshot 1`] = `
     <img
       alt="Vite logo"
       class="logo"
-      src="/src/assets/vite.svg"
+      src="/react-boilerplate/src/assets/vite.svg"
     />
   </a>
   <a
@@ -19,7 +19,7 @@ exports[`Logos component > should match the snapshot 1`] = `
     <img
       alt="React logo"
       class="logo react"
-      src="/src/assets/react.svg"
+      src="/react-boilerplate/src/assets/react.svg"
     />
   </a>
 </DocumentFragment>
