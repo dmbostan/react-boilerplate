@@ -19,9 +19,21 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+
+    /* Aliases */
     "paths": {
-      "@/*": ["./src/*"]
+      "@atoms/*": ["./src/components/atoms/*"],
+      "@molecules/*": ["./src/components/molecules/*"],
+      "@organisms/*": ["./src/components/organisms/*"],
+      "@templates/*": ["./src/components/templates/*"],
+      "@pages/*": ["./src/components/pages/*"],
+      "@hooks/*": ["./src/components/hooks/*"],
+      "@context/*": ["./src/components/context/*"],
+      "@assets/*": ["./src/components/assets/*"],
+      "@styles/*": ["./src/components/styles/*"],
+      "@utils/*": ["./src/components/utils/*"]
     },
+
     "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
   "include": [
