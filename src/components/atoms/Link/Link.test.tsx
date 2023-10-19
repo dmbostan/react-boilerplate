@@ -36,6 +36,18 @@ describe('Link component', () => {
         expect(linkElement).not.toHaveAttribute('target');
     });
 
+    it('should render a link with class', () => {
+        const url = 'https://example.com';
+        const className = 'some-class';
+        const text = 'Example Text';
+
+        render(<Link href={url} className={className}>{text}</Link>);
+
+        const headingElement = screen.getByText(text);
+
+        expect(headingElement).toHaveAttribute('class', className);
+    });
+
     it('matches snapshot', () => {
         const url = 'https://example.com';
         const text = 'Example Link';

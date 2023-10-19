@@ -1,8 +1,8 @@
 import {LinkTypes} from "./Link.types.ts";
 
-const Link = ({target, href, children}: LinkTypes) => {
+const Link = ({target, href, className, children}: LinkTypes) => {
     return(
-      <a target={target} href={href}>{children}</a>
+      <a target={target} href={href} className={className}>{children}</a>
     );
 }
 

@@ -13,6 +13,18 @@ describe('Image component', () => {
         expect(imageElement).toHaveAttribute('src', src);
     });
 
+    it('should render an image with class', () => {
+        const className = 'some-class';
+        const src = 'path-to-your-image.jpg';
+        const alt = 'Test Image';
+
+        render(<Image src={src}  className={className} alt={alt} />);
+
+        const paragraphElement = screen.getByAltText(alt);
+
+        expect(paragraphElement).toHaveAttribute('class', className);
+    });
+
     it('should match snapshot', () => {
         const src = 'path-to-your-image.jpg';
         const alt = 'Test Image';

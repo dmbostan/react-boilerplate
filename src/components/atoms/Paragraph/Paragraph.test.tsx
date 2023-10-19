@@ -1,7 +1,7 @@
 import Paragraph from "./Paragraph.tsx";
 import {render, screen} from "@testing-library/react";
 
-describe('Logos component', () => {
+describe('Paragraph component', () => {
     it('should render a paragraph with class', () => {
         const className = 'some-class';
         const text = 'Example Text';
