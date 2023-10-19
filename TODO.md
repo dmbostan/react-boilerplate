@@ -8,6 +8,7 @@
 
 ## Development experience
 - [ ] Local SSL support
+- [ ] Path aliases
 
 ## Architecture
 - [ ] Implement Atomic Design
