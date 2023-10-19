@@ -1,30 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Logos component > matches snapshot 1`] = `
-<DocumentFragment>
-  <a
-    href="https://vitejs.dev"
-    target="_blank"
-  >
-    <img
-      alt="Vite logo"
-      class="logo"
-      src="/src/assets/vite.svg"
-    />
-  </a>
-  <a
-    href="https://react.dev"
-    target="_blank"
-  >
-    <img
-      alt="React logo"
-      class="logo react"
-      src="/src/assets/react.svg"
-    />
-  </a>
-</DocumentFragment>
-`;
-
 exports[`Logos component > should match the snapshot 1`] = `
 <DocumentFragment>
   <a

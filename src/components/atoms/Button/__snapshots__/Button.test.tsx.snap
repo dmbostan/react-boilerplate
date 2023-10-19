@@ -1,15 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button component > matches snapshot 1`] = `
-<DocumentFragment>
-  <button
-    class="custom-button"
-  >
-    Click me
-  </button>
-</DocumentFragment>
-`;
-
 exports[`Button component > should match the snapshot 1`] = `
 <DocumentFragment>
   <button
