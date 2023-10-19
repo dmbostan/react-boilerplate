@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import './App.css'
-import Logos from "@molecules/Logos/Logos.tsx";
-import Paragraph from "@atoms/Paragraph/Paragraph.tsx";
-import Heading from "@atoms/Heading/Heading.tsx";
-import Button from "@atoms/Button/Button.tsx";
+import './Home.css'
+import {Logos} from "@molecules/index";
+import {Paragraph, Heading, Button} from "@atoms/index.ts";
 
 const  Home = () => {
     const [count, setCount] = useState(0)

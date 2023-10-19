@@ -1,5 +1,4 @@
-import Link from "@atoms/Link/Link.tsx";
-import Image from "@atoms/Image/Image.tsx";
+import {Link, Image} from "@atoms/index";
 import reactLogo from "@assets/react.svg";
 import viteLogo from '@assets/vite.svg'
 

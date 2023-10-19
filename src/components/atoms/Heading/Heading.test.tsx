@@ -1,4 +1,4 @@
-import Heading from "@atoms/Heading/Heading.tsx";
+import Heading from "./Heading.tsx";
 import {render, screen} from "@testing-library/react";
 
 describe('Heading component', () => {
