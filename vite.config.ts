@@ -18,6 +18,7 @@ export default defineConfig({
         { find: '@utils', replacement: path.resolve(__dirname, 'src/utils') },
     ],
   },
+    base: '/react-boilerplate',
   test: {
     environment: 'jsdom',
     globals: true,
