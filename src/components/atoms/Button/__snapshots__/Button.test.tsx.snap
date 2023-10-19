@@ -9,3 +9,13 @@ exports[`Button component > matches snapshot 1`] = `
   </button>
 </DocumentFragment>
 `;
+
+exports[`Button component > should match the snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="custom-button"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;

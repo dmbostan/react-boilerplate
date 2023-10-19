@@ -2,7 +2,7 @@ import Image from "./Image.tsx";
 import {render, screen} from "@testing-library/react";
 
 describe('Image component', () => {
-    it('should renders an image with the provided src and alt text', () => {
+    it('should render an image with the provided src and alt text', () => {
         const src = 'path-to-your-image.jpg';
         const alt = 'Test Image';
 
@@ -20,12 +20,12 @@ describe('Image component', () => {
 
         render(<Image src={src}  className={className} alt={alt} />);
 
-        const paragraphElement = screen.getByAltText(alt);
+        const image = screen.getByAltText(alt);
 
-        expect(paragraphElement).toHaveAttribute('class', className);
+        expect(image).toHaveAttribute('class', className);
     });
 
-    it('should match snapshot', () => {
+    it('should match the snapshot', () => {
         const src = 'path-to-your-image.jpg';
         const alt = 'Test Image';
 

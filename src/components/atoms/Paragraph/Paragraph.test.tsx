@@ -13,7 +13,7 @@ describe('Paragraph component', () => {
         expect(paragraphElement).toHaveAttribute('class', className);
     });
 
-    it('matches snapshot', () => {
+    it('should match the snapshot', () => {
         const { asFragment } = render(<Paragraph>Example</Paragraph>);
 
         expect(asFragment()).toMatchSnapshot();

@@ -43,9 +43,9 @@ describe('Link component', () => {
 
         render(<Link href={url} className={className}>{text}</Link>);
 
-        const headingElement = screen.getByText(text);
+        const linkElement = screen.getByText(text);
 
-        expect(headingElement).toHaveAttribute('class', className);
+        expect(linkElement).toHaveAttribute('class', className);
     });
 
     it('matches snapshot', () => {

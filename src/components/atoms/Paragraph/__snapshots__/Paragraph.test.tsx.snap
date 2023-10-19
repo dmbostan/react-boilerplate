@@ -7,3 +7,11 @@ exports[`Paragraph component > matches snapshot 1`] = `
   </p>
 </DocumentFragment>
 `;
+
+exports[`Paragraph component > should match the snapshot 1`] = `
+<DocumentFragment>
+  <p>
+    Example
+  </p>
+</DocumentFragment>
+`;

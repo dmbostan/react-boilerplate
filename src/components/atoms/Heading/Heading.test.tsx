@@ -2,7 +2,7 @@ import Heading from "@atoms/Heading/Heading.tsx";
 import {render, screen} from "@testing-library/react";
 
 describe('Heading component', () => {
-    it('renders a heading with the provided level and text', () => {
+    it('should render a heading with the provided level and text', () => {
         const text = 'Example';
         const { container } = render(<Heading as="h1">{text}</Heading>);
 
@@ -23,7 +23,7 @@ describe('Heading component', () => {
         expect(headingElement).toHaveAttribute('class', className);
     });
 
-    it('matches snapshot', () => {
+    it('should match the snapshot', () => {
         const { asFragment } = render(<Heading as="h3">Example</Heading>);
 
         expect(asFragment()).toMatchSnapshot();

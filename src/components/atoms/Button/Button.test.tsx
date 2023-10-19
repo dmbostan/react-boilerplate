@@ -2,7 +2,7 @@ import { render, fireEvent } from '@testing-library/react';
 import Button from './Button';
 
 describe('Button component', () => {
-    it('renders a button with the provided text and class name', () => {
+    it('should render a button with the provided text and class name', () => {
         const clickHandler = vi.fn();
         const className = 'custom-button';
         const buttonText = 'Click me';
@@ -19,7 +19,7 @@ describe('Button component', () => {
         expect(buttonElement).toHaveClass(className);
     });
 
-    it('calls the click handler when clicked', () => {
+    it('should call the click handler when clicked', () => {
         const clickHandler = vi.fn();
         const className = 'custom-button';
         const buttonText = 'Click me';
@@ -36,7 +36,7 @@ describe('Button component', () => {
         expect(clickHandler).toHaveBeenCalled();
     });
 
-    it('matches snapshot', () => {
+    it('should match the snapshot', () => {
         const clickHandler = vi.fn();
         const className = 'custom-button';
         const buttonText = 'Click me';
