@@ -8,7 +8,7 @@
 
 ## Development experience
 - [ ] Local SSL support
-- [ ] Path aliases
+- [x] Path aliases
 - [ ] Implement checks in CI pipeline
 
 ## Architecture
