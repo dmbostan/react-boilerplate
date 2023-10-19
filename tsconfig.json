@@ -27,11 +27,11 @@
       "@organisms/*": ["./src/components/organisms/*"],
       "@templates/*": ["./src/components/templates/*"],
       "@pages/*": ["./src/components/pages/*"],
-      "@hooks/*": ["./src/components/hooks/*"],
-      "@context/*": ["./src/components/context/*"],
-      "@assets/*": ["./src/components/assets/*"],
-      "@styles/*": ["./src/components/styles/*"],
-      "@utils/*": ["./src/components/utils/*"]
+      "@hooks/*": ["./src/hooks/*"],
+      "@context/*": ["./src/context/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@utils/*": ["./src/utils/*"]
     },
 
     "types": ["vitest/globals", "@testing-library/jest-dom"]
