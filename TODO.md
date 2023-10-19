@@ -12,8 +12,8 @@
 - [ ] Implement checks in CI pipeline
 
 ## Architecture
-- [ ] Implement Atomic Design
-- [ ] Add Hooks folder
+- [x] Implement Atomic Design
+- [x] Add Hooks folder
 
 ## Linting
 - [ ] Implement CSS linting

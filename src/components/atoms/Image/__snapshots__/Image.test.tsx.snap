@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Image component > should match the snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="Test Image"
+    src="path-to-your-image.jpg"
+  />
+</DocumentFragment>
+`;
