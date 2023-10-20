@@ -1,4 +1,4 @@
-import {Link, Image} from "@atoms/index";
+import {Link} from "@atoms/index";
 import ReactLogo from "@assets/react.svg?react";
 import ViteLogo from '@assets/vite.svg?react'
 
