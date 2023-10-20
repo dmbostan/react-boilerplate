@@ -7,7 +7,7 @@
 - [x] Add dummy component
 
 ## Development experience
-- [ ] Local SSL support
+- [x] Local SSL support
 - [x] Path aliases
 - [x] Implement checks in CI pipeline
 
