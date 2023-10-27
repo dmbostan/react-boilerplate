@@ -1,5 +1,5 @@
 import Link from './Link';
-import {render, screen} from "@testing-library/react";
+import { render, screen } from '@testing-library/react';
 
 describe('Link component', () => {
   it('should render a link with href', () => {
@@ -18,7 +18,11 @@ describe('Link component', () => {
     const target = '_blank';
     const text = 'Example Link';
 
-    render(<Link href={url} target={target}>{text}</Link>);
+    render(
+      <Link href={url} target={target}>
+        {text}
+      </Link>,
+    );
 
     const linkElement = screen.getByText(text);
 
@@ -41,7 +45,11 @@ describe('Link component', () => {
     const className = 'some-class';
     const text = 'Example Text';
 
-    render(<Link href={url} className={className}>{text}</Link>);
+    render(
+      <Link href={url} className={className}>
+        {text}
+      </Link>,
+    );
 
     const linkElement = screen.getByText(text);
 

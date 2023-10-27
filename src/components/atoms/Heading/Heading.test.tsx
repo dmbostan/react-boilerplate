@@ -1,5 +1,5 @@
-import Heading from "./Heading.tsx";
-import {render, screen} from "@testing-library/react";
+import Heading from './Heading.tsx';
+import { render, screen } from '@testing-library/react';
 
 describe('Heading component', () => {
   it('should render a heading with the provided level and text', () => {
@@ -16,7 +16,11 @@ describe('Heading component', () => {
     const className = 'some-class';
     const text = 'Example Text';
 
-    render(<Heading as="h5" className={className}>{text}</Heading>);
+    render(
+      <Heading as="h5" className={className}>
+        {text}
+      </Heading>,
+    );
 
     const headingElement = screen.getByText(text);
 

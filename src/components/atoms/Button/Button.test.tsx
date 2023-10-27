@@ -10,7 +10,7 @@ describe('Button component', () => {
     const { getByText } = render(
       <Button clickHandler={clickHandler} className={className}>
         {buttonText}
-      </Button>
+      </Button>,
     );
 
     const buttonElement = getByText(buttonText);
@@ -27,7 +27,7 @@ describe('Button component', () => {
     const { getByText } = render(
       <Button clickHandler={clickHandler} className={className}>
         {buttonText}
-      </Button>
+      </Button>,
     );
 
     const buttonElement = getByText(buttonText);
@@ -44,7 +44,7 @@ describe('Button component', () => {
     const { asFragment } = render(
       <Button clickHandler={clickHandler} className={className}>
         {buttonText}
-      </Button>
+      </Button>,
     );
 
     expect(asFragment()).toMatchSnapshot();

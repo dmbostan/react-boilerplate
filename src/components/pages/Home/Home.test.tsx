@@ -1,4 +1,4 @@
-import Home from "./Home.tsx";
+import Home from './Home.tsx';
 import { render, screen, fireEvent } from '@testing-library/react';
 
 describe('Home component', () => {
@@ -23,8 +23,8 @@ describe('Home component', () => {
   });
 
   it('should match snapshot', () => {
-    const { asFragment} = render(<Home />)
+    const { asFragment } = render(<Home />);
 
-    expect(asFragment()).toMatchSnapshot()
-  })
+    expect(asFragment()).toMatchSnapshot();
+  });
 });

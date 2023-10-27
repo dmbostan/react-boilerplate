@@ -1,5 +1,5 @@
-import Paragraph from "./Paragraph.tsx";
-import {render, screen} from "@testing-library/react";
+import Paragraph from './Paragraph.tsx';
+import { render, screen } from '@testing-library/react';
 
 describe('Paragraph component', () => {
   it('should render a paragraph with class', () => {

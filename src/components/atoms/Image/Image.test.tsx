@@ -1,5 +1,5 @@
-import Image from "./Image.tsx";
-import {render, screen} from "@testing-library/react";
+import Image from './Image.tsx';
+import { render, screen } from '@testing-library/react';
 
 describe('Image component', () => {
   it('should render an image with the provided src and alt text', () => {
@@ -18,7 +18,7 @@ describe('Image component', () => {
     const src = 'path-to-your-image.jpg';
     const alt = 'Test Image';
 
-    render(<Image src={src}  className={className} alt={alt} />);
+    render(<Image src={src} className={className} alt={alt} />);
 
     const image = screen.getByAltText(alt);
 

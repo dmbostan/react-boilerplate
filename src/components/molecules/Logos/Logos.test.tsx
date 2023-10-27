@@ -1,5 +1,5 @@
-import Logos from "./Logos.tsx";
-import {render} from "@testing-library/react";
+import Logos from './Logos.tsx';
+import { render } from '@testing-library/react';
 
 describe('Logos component', () => {
   it('should match the snapshot', () => {

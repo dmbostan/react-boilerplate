@@ -1,9 +1,9 @@
-import {Link} from "@atoms/index";
-import ReactLogo from "@assets/react.svg?react";
-import ViteLogo from '@assets/vite.svg?react'
+import { Link } from '@atoms/index';
+import ReactLogo from '@assets/react.svg?react';
+import ViteLogo from '@assets/vite.svg?react';
 
 const Logos = () => {
-  return(
+  return (
     <>
       <Link href="https://vitejs.dev" target="_blank">
         <ViteLogo className="logo" />
@@ -13,6 +13,6 @@ const Logos = () => {
       </Link>
     </>
   );
-}
+};
 
 export default Logos;
