@@ -16,8 +16,8 @@
 - [x] Add Hooks folder
 
 ## Linting
-- [ ] Implement CSS linting
-- [ ] Extend linting to a modern standard
+- [x] Implement CSS linting
+- [x] Extend linting to a modern standard
 
 ## Assets
 - [x] Implement SVGR
