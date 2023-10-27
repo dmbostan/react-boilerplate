@@ -9,10 +9,14 @@
     "coverage": "vitest run --coverage",
     "build": "tsc && vite build",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "format": "prettier --config .prettierrc.cjs 'src/**/*.{ts,tsx,css}' --write",
     "preview": "vite preview"
   },
   "dependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
