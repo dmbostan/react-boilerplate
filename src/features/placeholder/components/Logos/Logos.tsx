@@ -1,6 +1,6 @@
-import { Link } from '@atoms/index';
-import ReactLogo from '@assets/react.svg?react';
-import ViteLogo from '@assets/vite.svg?react';
+import { Link } from '@features/placeholder/components/index.ts';
+import ReactLogo from '../../assets/react.svg?react';
+import ViteLogo from '../../assets/vite.svg?react';
 
 const Logos = () => {
   return (
