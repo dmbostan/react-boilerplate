@@ -1,7 +1,7 @@
 import Placeholder from './Placeholder.tsx';
 import { render, screen, fireEvent } from '@testing-library/react';
 
-describe('Home component', () => {
+describe('Placeholder component', () => {
   it('should have a heading', () => {
     render(<Placeholder />);
     const h1 = screen.queryByText('Vite + React');
