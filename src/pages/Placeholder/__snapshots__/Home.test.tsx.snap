@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Home component > should match snapshot 1`] = `
+exports[`Placeholder component > should match snapshot 1`] = `
 <DocumentFragment>
   <a
     href="https://vitejs.dev"

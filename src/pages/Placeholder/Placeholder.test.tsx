@@ -1,16 +1,16 @@
-import Home from './Home.tsx';
+import Placeholder from './Placeholder.tsx';
 import { render, screen, fireEvent } from '@testing-library/react';
 
 describe('Home component', () => {
   it('should have a heading', () => {
-    render(<Home />);
+    render(<Placeholder />);
     const h1 = screen.queryByText('Vite + React');
 
     expect(h1).toBeInTheDocument();
   });
 
   it('should show the button count set to 3', () => {
-    render(<Home />);
+    render(<Placeholder />);
     const button = screen.queryByText('count is 0');
 
     expect(button).not.toBeNull();
@@ -23,7 +23,7 @@ describe('Home component', () => {
   });
 
   it('should match snapshot', () => {
-    const { asFragment } = render(<Home />);
+    const { asFragment } = render(<Placeholder />);
 
     expect(asFragment()).toMatchSnapshot();
   });

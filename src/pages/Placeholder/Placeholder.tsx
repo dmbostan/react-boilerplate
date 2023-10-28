@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import './Home.css';
-import { Logos } from '@molecules/index';
-import { Paragraph, Heading, Button } from '@atoms/index.ts';
+import './Placeholder.css';
+import { Logos, Paragraph, Heading, Button } from '@features/placeholder/components/index.ts';
 
-const Home = () => {
+const Placeholder = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -21,4 +20,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Placeholder;
