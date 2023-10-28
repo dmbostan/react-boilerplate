@@ -1,4 +1,5 @@
 [![codecov](https://codecov.io/gh/dmbostan/react-boilerplate/branch/main/graph/badge.svg)](https://codecov.io/gh/dmbostan/react-boilerplate)
+![Deploy](https://github.com/dmbostan/react-boilerplate/actions/workflows/build-and-deploy.yml/badge.svg)
 
 # React Boilerplate
 
@@ -15,6 +16,7 @@ This project uses:
 - Eslint
 - Prettier
 - Yarn
+- Built-in pipeline (Live URL: https://dmbostan.github.io/react-boilerplate/)
 - Feature-Driven Architecture
 
 Feel free to use for your own projects :)
