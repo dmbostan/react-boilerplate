@@ -1,29 +1,20 @@
 [![codecov](https://codecov.io/gh/dmbostan/react-boilerplate/branch/main/graph/badge.svg)](https://codecov.io/gh/dmbostan/react-boilerplate)
 
-# React + TypeScript + Vite
+# React Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aloha, fellow front-end developer! 
 
-Currently, two official plugins are available:
+If you are using React for building different prototypes like me, you probably
+now the struggle of setting up a new ReactJS project with all the necessary 
+tooling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project uses:
+- Vite + React
+- Typescript
+- Vitest
+- Eslint
+- Prettier
+- Yarn
+- Feature-Driven Architecture
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feel free to use for your own projects :)
