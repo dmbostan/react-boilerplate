@@ -28,7 +28,7 @@ export default defineConfig({
             provider: 'v8',
             all: true,
             include: ['src/'],
-            exclude: ['**/*.types.ts', '**/*.d.ts', '**/**/index.ts', 'src/main.tsx'],
+            exclude: ['**/*.types.ts', '**/*.d.ts', '**/**/index.ts', 'src/main.tsx', '**/*.stories.tsx'],
             reporter: ['text', 'html', 'clover', 'json'],
             statements: 90,
             branches: 90,
