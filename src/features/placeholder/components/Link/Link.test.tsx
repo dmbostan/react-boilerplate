@@ -53,7 +53,7 @@ describe('Link component', () => {
 
     const linkElement = screen.getByText(text);
 
-    expect(linkElement).toHaveAttribute('class', className);
+    expect(linkElement.className).toContain(className);
   });
 
   it('matches snapshot', () => {

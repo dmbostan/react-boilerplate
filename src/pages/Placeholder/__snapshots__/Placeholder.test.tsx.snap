@@ -92,7 +92,9 @@ exports[`Placeholder component > should match snapshot 1`] = `
   <div
     class="card"
   >
-    <button>
+    <button
+      class="_button_b44ff9"
+    >
       count is 0
     </button>
     <p>
