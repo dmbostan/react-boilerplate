@@ -9,6 +9,8 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
+const clickHandler = () => console.log('Clicked.');
+
 export const Default: Story = {
-  render: () => <Button>Click me</Button>,
+  render: () => <Button clickHandler={() => clickHandler()}>Click me</Button>,
 };
